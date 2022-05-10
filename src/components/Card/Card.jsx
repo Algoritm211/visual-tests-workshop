@@ -26,7 +26,7 @@ const Card = ({
         <div className="user">
           <img src={avatar} width={50} height={50} alt="user__image" className="user__image" />
           <div className="user__info">
-            <h5>{author}</h5>
+            <h4>{author}</h4>
             <small>{date}</small>
           </div>
         </div>
